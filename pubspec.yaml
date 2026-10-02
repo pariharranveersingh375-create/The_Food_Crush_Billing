@@ -1,6 +1,7 @@
 name: the_food_crush_billing
-description: The Food Crush billing app - generate and save bill images to Gallery.
+description: The Food Crush offline billing app.
 publish_to: "none"
+
 version: 1.0.0+1
 
 environment:
@@ -9,10 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
   shared_preferences: ^2.5.5
-  screenshot: ^3.0.0
-  gal: ^2.3.2
-  share_plus: ^12.0.0
+  gal: ^2.3.3
+  share_plus: ^12.0.2
 
 dev_dependencies:
   flutter_test:
